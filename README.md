@@ -34,31 +34,6 @@ CSS3
 JavaScript
 Git & GitHub
 
-📁 PROJECT STRUCTURE
-
-Loan-App/
-│
-├── .gitignore
-├── LICENSE
-├── README.md
-├── app.py
-├── requirements.txt
-├── train_model.py
-│
-├── data/
-│   └── Dataset files
-│
-├── model/
-│   └── Trained machine learning model
-│
-├── static/
-│   ├── CSS
-│   ├── JavaScript
-│   └── Images
-│
-└── templates/
-    └── HTML templates
-
 🚀 INSTALLATION
 
 1. Clone the repository
