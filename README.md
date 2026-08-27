@@ -30,32 +30,6 @@ The application demonstrates an end-to-end machine learning workflow — from da
 - **JavaScript**
 - **Git & GitHub**
 
-
-## 📁 PROJECT STRUCTURE
-
-```text
-Loan-App/
-│
-├── .gitignore
-├── LICENSE
-├── README.md
-├── app.py
-├── requirements.txt
-├── train_model.py
-│
-├── data/
-│   └── Dataset files
-│
-├── model/
-│   └── Trained machine learning model
-│
-├── static/
-│   └── CSS, JavaScript, images and other static files
-│
-└── templates/
-    └── HTML templates
-    '```
-
 ## ⚙️ INSTALLATION
 
 1. Clone the Repository
@@ -146,3 +120,27 @@ Artificial Intelligence Student | AI/ML Developer
 This project is licensed under the MIT License.
 
 See the LICENSE file for more information.
+
+## 📁 PROJECT STRUCTURE
+
+```text
+Loan-App/
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+├── app.py
+├── requirements.txt
+├── train_model.py
+│
+├── data/
+│   └── Dataset files
+│
+├── model/
+│   └── Trained machine learning model
+│
+├── static/
+│   └── CSS, JavaScript, images and other static files
+│
+└── templates/
+    └── HTML templates
