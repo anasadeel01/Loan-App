@@ -1,4 +1,4 @@
-"""
+<!--
 💰LOAN PREDICTION & MANAGEMENT WEB APP
 
 A machine learning powered web application for loan prediction and decision support. The application combines a trained machine learning model with a web interface to process applicant information and generate loan related predictions.
@@ -34,6 +34,31 @@ HTML5
 CSS3
 JavaScript
 Git & GitHub
+
+📁 PROJECT STRUCTURE
+
+Loan-App/
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+├── app.py
+├── requirements.txt
+├── train_model.py
+│
+├── data/
+│   └── Dataset files
+│
+├── model/
+│   └── Trained machine learning model
+│
+├── static/
+│   ├── CSS
+│   ├── JavaScript
+│   └── Images
+│
+└── templates/
+    └── HTML templates
 
 🚀 INSTALLATION
 
@@ -112,5 +137,4 @@ Artificial Intelligence Student | AI/ML Developer
 
 📄 LICENSE
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-"""
+This project is licensed under the MIT License. See the LICENSE file for details. -->
