@@ -1,82 +1,144 @@
-# Ledger — Credit Decision Engine
+💰Loan Prediction & Management Web App
 
-An end-to-end machine learning web application for loan approval prediction, combining a Scikit-learn classification pipeline with a Flask backend and an interactive web interface.
+A machine learning powered web application for loan prediction and decision support. The application combines a trained machine learning model with a web interface to process applicant information and generate loan related predictions.
 
-The application accepts applicant financial information, generates a real-time loan approval decision with probability scoring, and provides model and dataset insights through an integrated analytics dashboard.
+The project demonstrates the integration of machine learning, Python web development, model deployment, and a user facing web interface into a complete end-to-end application.
 
+🚀 Features
 
-## Overview
+🤖 Machine Learning Prediction
+Uses a trained ML model to generate loan predictions.
+Processes applicant information through the prediction pipeline.
+🌐 Web Application
+Browser-based interface for entering applicant information.
+Dynamic frontend built with HTML, CSS, and JavaScript.
+🧠 Model Training
+Dedicated training script for developing the machine learning model.
+Training data stored separately from application code.
+📊 Data Processing
+Structured dataset for model training and prediction.
+Model artifacts stored separately for application use.
+🎨 User Interface
+HTML templates for the web pages.
+Static assets for styling and frontend functionality.
 
-Ledger transforms a trained loan approval model into a functional web application.
+🛠️ Technologies Used
 
-Instead of stopping at exploratory data analysis and model training, the project takes the complete workflow from:
+Python
+Flask
+Scikit-learn
+Pandas
+NumPy
+HTML5
+CSS3
+JavaScript
+Git & GitHub
 
-**Data → Cleaning → Feature Engineering → Model Training → Model Persistence → REST API → Web Interface → Real-Time Prediction**
+📁 Project Structure
 
-The application uses a Logistic Regression pipeline with feature scaling and exposes the trained model through a Flask API.
-
-
-## What's inside
-
-loan_app/
-├── app.py                 # Flask server: serves the UI + /api/predict + /api/stats
-├── train_model.py         # Reproduces the EDA notebook's cleaning/FE pipeline, trains the model
-├── 10_loan_approval.csv   # The dataset (same one used in the notebook)
+Loan-App/
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+├── app.py
+├── requirements.txt
+├── train_model.py
+│
+├── data/
+│   └── Dataset files
+│
 ├── model/
-│   ├── model.joblib        # Trained sklearn pipeline (StandardScaler + LogisticRegression)
-│   └── stats.json          # Precomputed dashboard stats (approval rates, coefficients, etc.)
-├── templates/
-│   └── index.html          # Single-page UI
-└── static/
-    ├── style.css            # "Ledger" design system (dark vault theme, paper form, stamp animation)
-    └── script.js            # Form handling, gauge/stamp animation, Chart.js dashboard
+│   └── Trained machine learning model
+│
+├── static/
+│   ├── CSS
+│   ├── JavaScript
+│   └── Images
+│
+└── templates/
+    └── HTML templates
 
+🚀 Installation
 
-## Key Features
+1. Clone the repository
+git clone https://github.com/anasadeel01/Loan-App.git
+cd Loan-App
+2. Create a virtual environment
+python -m venv .venv
+3. Activate the virtual environment
+Windows:
 
-- Real time loan approval prediction
-- Probability based approval scoring
-- Applicant financial data processing
-- Automated feature engineering
-- Credit score visualization
-- Approval/decline decision interface
-- Dataset analytics dashboard
-- Approval rate analysis by credit band
-- Approval rate analysis by age segment
-- Model coefficient visualization
-- REST API for model inference
-- Persistent trained ML pipeline using Joblib
-- Interactive frontend built with vanilla HTML, CSS and JavaScript
+.venv\Scripts\activate
 
+macOS / Linux:
 
-## Machine Learning Pipeline
+source .venv/bin/activate
+4. Install dependencies
+pip install -r requirements.txt
 
-The model development workflow includes:
+🧠 Train the Model
 
-1. Dataset cleaning
-2. Duplicate removal
-3. Invalid value handling
-4. Missing value treatment using median imputation
-5. Feature engineering
-6. Debt burden calculation
-7. Age group segmentation
-8. Feature standardization
-9. Logistic Regression training
-10. Model evaluation
-11. Model serialization with Joblib
-12. Integration with a Flask inference API
+If you want to retrain the machine learning model using the available dataset:
 
-The trained pipeline contains:
+python train_model.py
 
-    text
-Input Features
-      ↓
-Data Preprocessing
-      ↓
-StandardScaler
-      ↓
-Logistic Regression
-      ↓
-Approval Probability
-      ↓
-APPROVED / DECLINED
+The trained model will be saved in the model/ directory.
+
+If your train_model.py saves the model somewhere else, change this description to match your actual implementation.
+
+▶️ Run the Application
+
+Start the Flask application:
+
+python app.py
+
+The application will normally be available at:
+
+http://127.0.0.1:5000
+
+Open that address in your browser to use the application.
+
+🔄 How It Works
+
+User
+  ↓
+Web Interface
+  ↓
+Flask Application
+  ↓
+Input Processing
+  ↓
+Trained ML Model
+  ↓
+Loan Prediction
+  ↓
+Result Displayed to User
+
+📊 Machine Learning Workflow
+
+Dataset
+   ↓
+Data Preparation
+   ↓
+Feature Processing
+   ↓
+Model Training
+   ↓
+Model Evaluation
+   ↓
+Trained Model
+   ↓
+Flask Application
+   ↓
+Prediction
+
+👨‍💻 Author
+
+Anas Adeel
+
+Artificial Intelligence Student | AI/ML Developer
+
+📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
