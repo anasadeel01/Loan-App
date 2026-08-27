@@ -1,0 +1,47 @@
+{
+  "n_rows_raw": 1140,
+  "n_rows_clean": 1108,
+  "duplicates_removed": 26,
+  "approval_rate": 0.42,
+  "by_age_group": {
+    "Young": 0.475,
+    "Middle-aged": 0.425,
+    "Senior": 0.372
+  },
+  "by_credit_bucket": {
+    "300-500": 0.37,
+    "500-600": 0.272,
+    "600-650": 0.438,
+    "650-700": 0.425,
+    "700-750": 0.517,
+    "750-800": 0.515,
+    "800-900": 0.562
+  },
+  "correlation_with_approval": {
+    "age": -0.086,
+    "income_lakh": 0.136,
+    "credit_score": 0.15,
+    "loan_amount_lakh": -0.057,
+    "existing_loans": -0.079,
+    "debt_burden": -0.158
+  },
+  "model_coefficients": {
+    "age": -0.189,
+    "income_lakh": 0.146,
+    "credit_score": 0.328,
+    "loan_amount_lakh": 0.527,
+    "existing_loans": -0.098,
+    "debt_burden": -1.529,
+    "age_group_Middle-aged": 0.061,
+    "age_group_Senior": 0.017
+  },
+  "test_accuracy": 0.667,
+  "test_auc": 0.704,
+  "medians": {
+    "age": 43.0,
+    "income_lakh": 8.25,
+    "credit_score": 656.0,
+    "loan_amount_lakh": 11.92,
+    "existing_loans": 1.0
+  }
+}
