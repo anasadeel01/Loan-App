@@ -1,10 +1,10 @@
-💰Loan Prediction & Management Web App
+💰LOAN PREDICTION & MANAGEMENT WEB APP
 
 A machine learning powered web application for loan prediction and decision support. The application combines a trained machine learning model with a web interface to process applicant information and generate loan related predictions.
 
 The project demonstrates the integration of machine learning, Python web development, model deployment, and a user facing web interface into a complete end-to-end application.
 
-🚀 Features
+🚀 FEATURES
 
 🤖 Machine Learning Prediction
 Uses a trained ML model to generate loan predictions.
@@ -22,7 +22,7 @@ Model artifacts stored separately for application use.
 HTML templates for the web pages.
 Static assets for styling and frontend functionality.
 
-🛠️ Technologies Used
+🛠️ TECHNOLOGIES USED
 
 Python
 Flask
@@ -34,7 +34,7 @@ CSS3
 JavaScript
 Git & GitHub
 
-📁 Project Structure
+📁 PROJECT STRUCTURE
 
 Loan-App/
 │
@@ -59,7 +59,7 @@ Loan-App/
 └── templates/
     └── HTML templates
 
-🚀 Installation
+🚀 INSTALLATION
 
 1. Clone the repository
 git clone https://github.com/anasadeel01/Loan-App.git
@@ -77,7 +77,7 @@ source .venv/bin/activate
 4. Install dependencies
 pip install -r requirements.txt
 
-🧠 Train the Model
+🧠 TRAIN THE MODEL
 
 If you want to retrain the machine learning model using the available dataset:
 
@@ -93,13 +93,8 @@ Start the Flask application:
 
 python app.py
 
-The application will normally be available at:
 
-http://127.0.0.1:5000
-
-Open that address in your browser to use the application.
-
-🔄 How It Works
+🔄 HOW IT WORKS
 
 User
   ↓
@@ -115,7 +110,7 @@ Loan Prediction
   ↓
 Result Displayed to User
 
-📊 Machine Learning Workflow
+📊 MACHINE LEARNING WORKFLOW
 
 Dataset
    ↓
@@ -133,12 +128,12 @@ Flask Application
    ↓
 Prediction
 
-👨‍💻 Author
+👨‍💻 AUTHOR
 
 Anas Adeel
 
 Artificial Intelligence Student | AI/ML Developer
 
-📄 License
+📄 LICENSE
 
 This project is licensed under the MIT License. See the LICENSE file for details.
