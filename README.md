@@ -30,6 +30,10 @@ The application demonstrates an end-to-end machine learning workflow — from da
 - **JavaScript**
 - **Git & GitHub**
 
+##  LIVE DEMO
+
+ https://anasadeel01.pythonanywhere.com/
+
 ## ⚙️ INSTALLATION
 
 1. Clone the Repository
