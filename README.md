@@ -1,3 +1,4 @@
+"""
 💰LOAN PREDICTION & MANAGEMENT WEB APP
 
 A machine learning powered web application for loan prediction and decision support. The application combines a trained machine learning model with a web interface to process applicant information and generate loan related predictions.
@@ -112,3 +113,4 @@ Artificial Intelligence Student | AI/ML Developer
 📄 LICENSE
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+"""
