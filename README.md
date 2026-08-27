@@ -54,6 +54,7 @@ Loan-App/
 │
 └── templates/
     └── HTML templates
+    '```
 
 ## ⚙️ INSTALLATION
 
